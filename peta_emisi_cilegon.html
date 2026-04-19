@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c567b329051dc2d6b0dee07887343e32 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c567b329051dc2d6b0dee07887343e32" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c567b329051dc2d6b0dee07887343e32 = L.map(
+                "map_c567b329051dc2d6b0dee07887343e32",
+                {
+                    center: [-6.01, 106.02],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7d507db7d113cd4edee14562c5e77199 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7d507db7d113cd4edee14562c5e77199.addTo(map_c567b329051dc2d6b0dee07887343e32);
+        
+    
+            var marker_946a38f475656bd576da71cea89cf447 = L.marker(
+                [-6.012, 106.015],
+                {
+}
+            ).addTo(map_c567b329051dc2d6b0dee07887343e32);
+        
+    
+            var icon_299df58f8dc4fd6369a7b1522e672ca6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "industry",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea6c36716d1191d679aed4f55b06bbac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21ebc10514f11fdf59a261a8a7462f9f = $(`<div id="html_21ebc10514f11fdf59a261a8a7462f9f" style="width: 100.0%; height: 100.0%;">Krakatau Steel (Sektor: Baja)</div>`)[0];
+                popup_ea6c36716d1191d679aed4f55b06bbac.setContent(html_21ebc10514f11fdf59a261a8a7462f9f);
+            
+        
+
+        marker_946a38f475656bd576da71cea89cf447.bindPopup(popup_ea6c36716d1191d679aed4f55b06bbac)
+        ;
+
+        
+    
+    
+                marker_946a38f475656bd576da71cea89cf447.setIcon(icon_299df58f8dc4fd6369a7b1522e672ca6);
+            
+    
+            var marker_fe76d6a1f3e480ba12f305aa8e1756cb = L.marker(
+                [-6.035, 105.925],
+                {
+}
+            ).addTo(map_c567b329051dc2d6b0dee07887343e32);
+        
+    
+            var icon_7676bb1d353d535ed88544c48168f344 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "industry",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c9047eef66a173458f504658e4efeef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9aadef5305d9d4258bfff66d620dcd1d = $(`<div id="html_9aadef5305d9d4258bfff66d620dcd1d" style="width: 100.0%; height: 100.0%;">PLTU Suralaya (Sektor: Energi)</div>`)[0];
+                popup_6c9047eef66a173458f504658e4efeef.setContent(html_9aadef5305d9d4258bfff66d620dcd1d);
+            
+        
+
+        marker_fe76d6a1f3e480ba12f305aa8e1756cb.bindPopup(popup_6c9047eef66a173458f504658e4efeef)
+        ;
+
+        
+    
+    
+                marker_fe76d6a1f3e480ba12f305aa8e1756cb.setIcon(icon_7676bb1d353d535ed88544c48168f344);
+            
+    
+            var marker_40fc148f1ea9ebb501b5d98883de1002 = L.marker(
+                [-5.995, 105.955],
+                {
+}
+            ).addTo(map_c567b329051dc2d6b0dee07887343e32);
+        
+    
+            var icon_911612dfdd11963a1c2e9697cdcc5714 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "industry",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ff636a2d4bf8fc71986898153d731ce9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8191ed0452c81473dcfc6f0363f8c7fa = $(`<div id="html_8191ed0452c81473dcfc6f0363f8c7fa" style="width: 100.0%; height: 100.0%;">Chandra Asri (Sektor: Petrokimia)</div>`)[0];
+                popup_ff636a2d4bf8fc71986898153d731ce9.setContent(html_8191ed0452c81473dcfc6f0363f8c7fa);
+            
+        
+
+        marker_40fc148f1ea9ebb501b5d98883de1002.bindPopup(popup_ff636a2d4bf8fc71986898153d731ce9)
+        ;
+
+        
+    
+    
+                marker_40fc148f1ea9ebb501b5d98883de1002.setIcon(icon_911612dfdd11963a1c2e9697cdcc5714);
+            
+    
+            var marker_cf5e875da0eaa035bea7d00f7331eb64 = L.marker(
+                [-6.025, 106.03],
+                {
+}
+            ).addTo(map_c567b329051dc2d6b0dee07887343e32);
+        
+    
+            var icon_a9cde854dec0bc9f45967079ed14ab95 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "industry",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8345caaa2ccf44317eb4c9c85ca7af4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61e9012ea4caf93674d835f779032dd3 = $(`<div id="html_61e9012ea4caf93674d835f779032dd3" style="width: 100.0%; height: 100.0%;">Asahimas Chemical (Sektor: Kimia)</div>`)[0];
+                popup_8345caaa2ccf44317eb4c9c85ca7af4e.setContent(html_61e9012ea4caf93674d835f779032dd3);
+            
+        
+
+        marker_cf5e875da0eaa035bea7d00f7331eb64.bindPopup(popup_8345caaa2ccf44317eb4c9c85ca7af4e)
+        ;
+
+        
+    
+    
+                marker_cf5e875da0eaa035bea7d00f7331eb64.setIcon(icon_a9cde854dec0bc9f45967079ed14ab95);
+            
+</script>
+</html>
