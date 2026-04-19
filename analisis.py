@@ -5,7 +5,7 @@ import folium
 df = pd.read_csv('emisi_cilegon.csv')
 
 # 2. Membuat peta pusat kota Cilegon
-peta = folium.Map(location=[-6.01, 106.02], zoom_start=12)
+peta = folium.Map(location=[-6.01, 106.02], zoom_start=12, tiles='CartoDB positron')
 
 # 3. Menambahkan titik lokasi industri ke peta
 for index, baris in df.iterrows():
